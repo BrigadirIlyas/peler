@@ -1,0 +1,47 @@
+html, body, * {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.left {
+ background-color: black;
+ position: relative;
+ width: 300px;
+ left: 0;
+bottom: 0px;
+top: 0px;
+font-size: 14px;
+font-weight: 500;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.menu {
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.gray-filtered {
+    filter: grayscale(100%);
+}
+
+menu ul li img {
+    width: 100%;
+}
+
+img {
+    width: 24px;
+    
+}
