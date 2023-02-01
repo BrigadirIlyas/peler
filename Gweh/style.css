@@ -34,14 +34,14 @@ position: relative;
 }
 
 .gray-filtered {
-    filter: grayscale(100%);
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0);width: 24px;
 }
-
-menu ul li img {
+menu ul {
     width: 100%;
 }
 
-img {
-    width: 24px;
-    
+menu ul li {
+    margin: px;
 }
+
+
